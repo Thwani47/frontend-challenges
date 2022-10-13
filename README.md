@@ -9,3 +9,4 @@ $ npm run dev
 ```
 - [Email Subscribe](/email-subscribe)
 - [Product Preview Card Component](/product-preview-card-component)
+- [Pricing Cards](/pricing-cards)
