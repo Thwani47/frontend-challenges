@@ -23,9 +23,11 @@ jobs:
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
+        with:
+         working-directory: email-subscribe
 
       - name: Build project - Email Subscribe
-        run: npm build
+        run: npm --prefix email-subscribe run build
 
       - name: Upload build files
         uses: actions/upload-artifact@v2
