@@ -7,9 +7,11 @@ $ cd <project-name>
 $ npm install
 $ npm run dev
 ```
-- [Email Subscribe](/email-subscribe)
-- [Product Preview Card Component](/product-preview-card-component)
-- [Pricing Cards](/pricing-cards)
-- [Product Moal](/product-modal)
-- [Image Gallery](/image-gallery)
-- [Order Summary Component](/order-summary-component)
+| Challenge        | Source Code         | Live Demo  |
+| ------------- |:-------------:| -----:|
+| Email Subscribe      | [Source Code](/email-subscribe) |[Live Demo](https://thwani47.github.io/frontend-challenges/email-subscribe/) |
+|Product Preview Card Component      | [Source Code](/product-preview-card-component) |[Live Demo](/product-preview-card-component) |
+| Pricing Cards      | [Source Code](/pricing-cards) |[Live Demo](/pricing-cards) |
+| Product Modal      | [Source Code](/product-modal) |[Live Demo](/product-modal) |
+| Image Gallery      | [Source Code](/image-gallery) |[Live Demo](/image-gallery) |
+| Order Summary Component      | [Source Code](/order-summary-component) |[Live Demo](/order-summary-component) |

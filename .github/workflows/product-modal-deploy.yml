@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - email-subscribe/**
+      - product-modal/**
 
 jobs:
   build:
@@ -24,16 +24,16 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
         with:
-         working-directory: email-subscribe
+         working-directory: product-modal
 
-      - name: Build project - Email Subscribe
-        run: npm --prefix email-subscribe run build
+      - name: Build project - Product Modal
+        run: npm --prefix product-modal run build
 
       - name: Upload build files
         uses: actions/upload-artifact@v2
         with:
           name: prod-files
-          path: ./email-subscribe/dist
+          path: ./product-modal/dist
 
   deploy:
     name: Deploy
@@ -53,4 +53,4 @@ jobs:
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           publish_dir: ./dist
-          destination_dir: email-subscribe
+          destination_dir: product-modal

@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - email-subscribe/**
+      - pricing-cards/**
 
 jobs:
   build:
@@ -24,16 +24,16 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
         with:
-         working-directory: email-subscribe
+         working-directory: pricing-cards
 
-      - name: Build project - Email Subscribe
-        run: npm --prefix email-subscribe run build
+      - name: Build project - Pricing Cards
+        run: npm --prefix pricing-cards run build
 
       - name: Upload build files
         uses: actions/upload-artifact@v2
         with:
           name: prod-files
-          path: ./email-subscribe/dist
+          path: ./pricing-cards/dist
 
   deploy:
     name: Deploy
@@ -53,4 +53,4 @@ jobs:
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           publish_dir: ./dist
-          destination_dir: email-subscribe
+          destination_dir: pricing-cards
