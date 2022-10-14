@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: prod-files
-          path: ./dist
+          path: ./email-subscribe/dist
 
   deploy:
     name: Deploy
