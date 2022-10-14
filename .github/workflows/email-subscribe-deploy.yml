@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-    paths:
-      - email-subscribe/**
+    # paths:
+    #   - email-subscribe/**
 
 jobs:
   build:
