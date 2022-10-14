@@ -12,3 +12,4 @@ $ npm run dev
 - [Pricing Cards](/pricing-cards)
 - [Product Moal](/product-modal)
 - [Image Gallery](/image-gallery)
+- [Order Summary Component](/order-summary-component)
