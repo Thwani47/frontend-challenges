@@ -11,3 +11,4 @@ $ npm run dev
 - [Product Preview Card Component](/product-preview-card-component)
 - [Pricing Cards](/pricing-cards)
 - [Product Moal](/product-modal)
+- [Image Gallery](/image-gallery)
