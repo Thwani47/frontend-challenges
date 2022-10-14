@@ -53,4 +53,6 @@ jobs:
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           publish_dir: ./dist
+          external_repository: Thwani47/thwani47.github.io
+          publish_branch: master
           destination_dir: frontend-challenges/email-subscribe
