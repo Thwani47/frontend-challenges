@@ -15,3 +15,4 @@ $ npm run dev
 | Product Modal      | [Source Code](/product-modal) |[Live Demo](https://thwani47.github.io/frontend-challenges/product-modal/) |
 | Image Gallery      | [Source Code](/image-gallery) |[Live Demo](https://thwani47.github.io/frontend-challenges/image-gallery/) |
 | Order Summary Component      | [Source Code](/order-summary-component) |[Live Demo](https://thwani47.github.io/frontend-challenges/order-summary-component/) |
+| Login Modal     | [Source Code](/login-modal) |[Live Demo](https://thwani47.github.io/frontend-challenges/login-modal/) |
