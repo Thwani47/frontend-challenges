@@ -5,11 +5,9 @@ import IconCart from './assets/icon-cart.svg';
 function App() {
 	return (
 		<div className="flex justify-center items-center bg-cream h-screen p-6 md:flex-row">
-			<div className="container mx-auto bg-white flex mobile:flex-col  desktop:flex-row bg-red rounded-xl desktop:max-w-2xl desktop:max-h-80">
-				<picture>
-					<source srcSet={MobileImage} className="rounded-t-xl" media="(max-width:768px)"/>
-					<img src={DesktopImage} className="rounded-l-xl" alt="Gabrielle Parfum Essence Eau De Parfum" />
-				</picture>
+			<div className="container mx-auto bg-white flex mobile:flex-col  desktop:flex-row rounded-xl desktop:max-w-2xl desktop:max-h-80">
+				<img src={MobileImage} alt="" className="rounded-t-xl desktop:hidden" />
+				<img src={DesktopImage} alt="" className="rounded-l-xl mobile:hidden desktop:max-w-xs" />
 				<div className="container mx-auto p-4 desktop:py-6">
 					<p className="text-dark-grayish-blue text-xl uppercase self-start">Perfume</p>
 					<p className="text-4xl font-bold font-fraunces mt-2">Gabrielle Essence Eau De Parfum</p>
