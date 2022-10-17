@@ -1,4 +1,4 @@
-name: Deploy to GH-Pages
+name: Deploy Login Modal to GH-Pages
 
 on:
   push:

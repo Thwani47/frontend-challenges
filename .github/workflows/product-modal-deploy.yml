@@ -1,4 +1,4 @@
-name: Deploy to GH-Pages
+name: Deploy Product Modal to GH-Pages
 
 on:
   push:
