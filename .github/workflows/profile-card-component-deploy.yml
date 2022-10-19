@@ -1,0 +1,56 @@
+# name: Deploy Profile Card Component to GH-Pages
+
+# on:
+#   push:
+#     branches:
+#       - master
+#     paths:
+#       - profile-card-component/**
+
+# jobs:
+#   build:
+#     name: Build
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v2
+
+#       - name: Setup Node JS
+#         uses: actions/setup-node@v1
+#         with:
+#           node-version: 16
+
+#       - name: Install dependencies
+#         uses: bahmutov/npm-install@v1
+#         with:
+#          working-directory: profile-card-component
+
+#       - name: Build project - Profile Card Component
+#         run: npm --prefix profile-card-component run build
+
+#       - name: Upload build files
+#         uses: actions/upload-artifact@v2
+#         with:
+#           name: prod-files
+#           path: ./profile-card-component/dist
+
+#   deploy:
+#     name: Deploy
+#     needs: build
+#     runs-on: ubuntu-latest
+#     if: github.ref == 'refs/heads/master'
+
+#     steps:
+#       - name: Download Build artifacts
+#         uses: actions/download-artifact@v2
+#         with:
+#           name: prod-files
+#           path: ./dist
+
+#       - name: Deploy to GitHub Pages
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           github_token: ${{secrets.GITHUB_TOKEN}}
+#           publish_dir: ./dist
+#           destination_dir: profile-card-component

@@ -18,3 +18,5 @@ $ npm run dev
 | Login Modal     | [Source Code](/login-modal) |[Live Demo](https://thwani47.github.io/frontend-challenges/login-modal/) |
 | Clipboard     | [Source Code](/clipboard) |[Live Demo](https://thwani47.github.io/frontend-challenges/clipboard/) |
 | Loopstudios     | [Source Code](/loopstudios) |[Live Demo](https://thwani47.github.io/frontend-challenges/loopstudios/) |
+| Profile Card Componnent     | [Source Code](/profile-card-component) |[Live Demo](https://thwani47.github.io/frontend-challenges/profile-card-component/) |
+| Testimonial Grid     | [Source Code](/testimonial-grid) |[Live Demo](https://thwani47.github.io/frontend-challenges/testimonial-grid/) |

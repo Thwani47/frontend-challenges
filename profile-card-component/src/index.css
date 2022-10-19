@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+	background: url(./assets/bg-pattern-top.svg), url(./assets/bg-pattern-botttom.svg), darkCyan, ;
+	background-size: cover, contain;
+	background-position: center, right bottom;
+	background-repeat: no-repeat, no-repeat;
+}
+.card{
+  background-image: url('./assets/bg-pattern-card.svg');
+  background-repeat : no-repeat;
+  background-size: 30rem 6rem;
+  background-color: white;
+}
