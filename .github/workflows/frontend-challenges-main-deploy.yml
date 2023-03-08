@@ -24,9 +24,9 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
         with:
-         working-directory: clipboard
+         working-directory: frontend-challenges-main
 
-      - name: Build project - Clipboard
+      - name: Build project - frontend-challenges-main
         run: npm --prefix frontend-challenges-main run build
 
       - name: Upload build files
