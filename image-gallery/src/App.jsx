@@ -60,7 +60,6 @@ function App() {
           <GalleryImage image={ImageFive} title="Abstract Painting" likes={3} shares={1} />
           <GalleryImage image={ImageSix} title="Abstract Painting" likes={123} shares={13} />
 
-          
         </div>
 			</div>
 		</div>

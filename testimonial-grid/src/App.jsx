@@ -6,6 +6,7 @@ import ImageKira from './assets/image-kira.jpg';
 import ImageJeanette from './assets/image-jeanette.jpg';
 import ImagePatrick from './assets/image-patrick.jpg';
 import { testimonials } from './testimonials';
+
 function App() {
 	return (
 		<div className="container mx-auto max-w-7xl p-2 md:p-10">

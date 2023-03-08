@@ -7,7 +7,6 @@ function App() {
 				<div className="p-2 rounded-full bg-white">
 					<img src={Avatar} alt="avatar" className="rounded-full" />
 				</div>
-
 				<div className="flex space-x-4">
 					<span className="font-bold">Victor Crest</span>
 					<span className="text-gray-800">26</span>

@@ -1,5 +1,4 @@
 import { Fragment, useState } from 'react';
-
 import InteractiveImage from './assets/desktop/image-interactive.jpg';
 import Footer from './components/Footer';
 import NavMenu from './components/NavMenu';

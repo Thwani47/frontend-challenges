@@ -41,7 +41,6 @@ function App() {
 							<div className="w-3 h-3 bg-green-400 rounded-full group-hover:animate-ping" />
 							<div className="text">50+ pcs in stock</div>
 						</div>
-
 						{/* Bottom Buttons */}
 						<div className="flex flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
 							<button className="flex items-center justify-center py-3 px-5 space-x-3 border-2 border-gray-300 rounded-lg shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150">
